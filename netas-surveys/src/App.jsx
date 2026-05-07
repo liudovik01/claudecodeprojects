@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
+import Hero3D from './components/Hero3D'
 import TrustBar from './components/TrustBar'
 import Services from './components/Services'
 import About from './components/About'
@@ -14,7 +14,7 @@ export default function App() {
     <div className="min-h-screen" style={{ background: '#0a1628' }}>
       <Navbar />
       <main>
-        <Hero />
+        <Hero3D />
         <TrustBar />
         <Services />
         <About />
